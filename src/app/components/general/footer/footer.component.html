@@ -1,0 +1,35 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/PAULINA-MAY" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/fernanda-may-285103339" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a 
+            (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' 
+            href="mailto:fernandapaulinamay@gmail.com" 
+            target="_blank" 
+            class="main-btn">
+            {{"Banner.ActionBtn" | translate}}
+          </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center" >
+        <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/PAULINA-MAY" target='_blank'>
+            <div>Built with Angular by Pauulina May</div>
+        </a>
+        <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/fernanda-may-285103339" target='_blank'>
+            <div class="mt-2">Designed by Paulina May</div>
+        </a>
+    </div>
+
+</footer>

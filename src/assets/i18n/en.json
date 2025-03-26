@@ -1,0 +1,49 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Projects",
+  "Header.Item3": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Paulina_May_English.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a <span class='underline'>junior developer</span> with <span class='underline'>1 year of experience</span> creating systems and interfaces. I specialize in <span class='underline'>Angular</span> and for mobile applications <span class='underline'>Flutter</span>, writing clean, reusable, and scalable code, following best practices and development standards.",
+  "Banner.ActionBtn": "Say Hello",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>1 year of experience</span>, I have covered many roles: <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span>, and <span class='underline'>designer</span>. I love sharing my knowledge to create new things that help solve problems.",
+    "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
+    "I also program and design things for personal use, whether for a hobby or utility.",
+    "Some of the technologies I have trained in and worked with include (but are not limited to):"
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "PaySchool",
+      "Description": "PaySchool is a <span class='underline'>mobile application</span> designed to facilitate payment of services in <span class='underline'>private schools</span>. It allows users to make <span class='underline'>transfers</span> and pay for tuition, materials, and extracurricular activities through <span class='underline'>PayPal</span> and other payment methods. Developed in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, the platform ensures secure transactions and efficient management of school payments.",
+      "imgs": [
+        "assets/images/gopark/Captura de pantalla.jpeg",
+        "assets/images/gopark/Captura de pantalla2.jpeg",
+        "assets/images/gopark/Captura de pantalla3.jpeg"
+      ],
+      "Technologies": ["Node JS", "Tailwind CSS", "React JS", "Node JS", "Express", "Mysql"]
+    },
+    {
+      "Title": "PaySchool",
+      "Description": "PaySchool is a <span class='underline'>mobile application</span> designed to facilitate payment of services in <span class='underline'>private schools</span>. It allows users to make <span class='underline'>transfers</span> and pay for tuition, materials, and extracurricular activities through <span class='underline'>PayPal</span> and other payment methods. Developed in <span class='underline'>Flutter</span> and <span class='underline'>Dart</span>, the platform ensures secure transactions and efficient management of school payments.",
+      "imgs": [
+        "assets/images/payschool/cap1.jpeg",
+        "assets/images/payschool/cap2.jpeg",
+        "assets/images/payschool/cap3.jpeg"
+      ],
+      "Technologies": ["Node JS", "Flutter", "Dart", "Express", "Mysql"]
+    }
+  ],
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hello!",
+  "Contact.Content": "I would be happy to hear from you if you'd like to talk about new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}
