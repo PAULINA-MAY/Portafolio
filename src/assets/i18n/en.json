@@ -21,8 +21,8 @@
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "PaySchool",
-      "Description": "PaySchool is a <span class='underline'>mobile application</span> designed to facilitate payment of services in <span class='underline'>private schools</span>. It allows users to make <span class='underline'>transfers</span> and pay for tuition, materials, and extracurricular activities through <span class='underline'>PayPal</span> and other payment methods. Developed in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, the platform ensures secure transactions and efficient management of school payments.",
+      "Title": "GoPark",
+      "Description": "GoPark is a <span class='underline'>web platform</span> built with <span class='underline'>React JS</span>, <span class='underline'>Node.js</span>, and <span class='underline'>Express</span> designed to manage parking lots efficiently. It allows users to view real-time availability of parking spaces and track occupied spots. The platform also features robust reporting capabilities, providing detailed insights into parking usage. With seamless integration and a user-friendly interface, GoPark optimizes parking management and enhances the overall user experience.",
       "imgs": [
         "assets/images/gopark/Captura de pantalla.jpeg",
         "assets/images/gopark/Captura de pantalla2.jpeg",
